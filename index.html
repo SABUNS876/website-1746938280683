@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<style>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #111;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(0,255,255,0.5);
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #777;
+}
+
+
+.project {
+  background: #222;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 20px rgba(0,255,255,0.2);
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-10px);
+}
+
+.project h3 {
+  color: #ff0;
+  margin-bottom: 10px;
+}
+
+.project p {
+  line-height: 1.6;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #111;
+}
+
+a {
+  color: #0ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+</style>
+</head>
+<body>
+<header>
+  <h1>My Portfolio</h1>
+  <h2>A showcase of my work</h2>
+</header>
+<div class="container">
+  <div class="project">
+    <h3>Project 1</h3>
+    <img src="project1.jpg" alt="Project 1">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nulla facilisi.</p>
+    <a href="#">View Project</a>
+  </div>
+    <div class="project">
+    <h3>Project 2</h3>
+    <img src="project2.jpg" alt="Project 2">
+    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <a href="#">View Project</a>
+  </div>
+  <div class="project">
+    <h3>Project 3</h3>
+    <img src="project3.jpg" alt="Project 3">
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <a href="#">View Project</a>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2023 My Portfolio</p>
+</footer>
+</body>
+</html>
